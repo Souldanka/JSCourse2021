@@ -39,35 +39,40 @@ for (let i = 0; i < 2; i++) {
 
 // ---------------------------------
 
-// 2 цыкл
-//  let i = 0;
-//     while(i < 2) {
-//         const a = prompt('Один из последних просмотренных фильмов?', ''),
-//               b = prompt('На сколько оцените его?');
+// 2 цыкл  
+// let i = 0;
+// while( i < 2 ) {
+//     const a = prompt('Один из последних просмотренных фильмов?', ''),
+//           b = prompt('На сколько оцените его?', '');
 
-//     if(a != null && b != null && a != '' && b != "" && a.length < 50) {
-//         personalMovieDB.movies[a] = b;
-//         console.log('Done!');
-//     } else {
-//         console.log('Error');
-//         i--;
-//     }   
-//     }
+// if(a != null && b != null && a != '' && b != "" && a.length < 50) {
+//     personalMovieDB.movies[a] = b;
+//     console.log('Done!');
+// } else {
+//     console.log('Error');
+//     i--;
+// }
+// i++
+// };
+
 // ---------------------------------
 // 3 цыкл
-
-// do{
-//     const a = prompt('Один из последних просмотренных фильмов?', ''),
-//           b = prompt('На сколько оцените его?');
-
-//     if(a != null && b != null && a != '' && b != "" && a.length < 50) {
+// let i = 0;
+ 
+// do {
+//     const a = prompt('Один и последних просмотренных фильмов', ''),
+//           b = prompt('На сколько оцените его', '');
+//     i++;
+ 
+//     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
 //         personalMovieDB.movies[a] = b;
-//         console.log('Done!');
+//         console.log('done');
 //     } else {
-//         console.log('Error');
+//         console.log(error);
 //         i--;
-// }
-// while( )
+//     }
+ 
+// } while (i < 2);
 
 // ---------------------------------
 
